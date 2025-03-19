@@ -1,0 +1,80 @@
+/* Home.css */
+.home1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    padding: 30px;
+  }
+  
+  .homeright {
+    max-width: 50%;
+  }
+  
+  .home-head {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .home-para {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .Home-button {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .Home-button a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    transition:0.3s ease;
+  }
+  
+ 
+  .home-button {
+    display: flex;
+    gap: 15px;  
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .button1, .button2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .button1 {
+    background-color: #ff5733; 
+    color: white;
+    border: 2px solid #ff5733;
+  }
+  
+  .button1:hover {
+    background-color: white;
+    color: #ff5733;
+  }
+  
+  .button2 {
+    background-color: #007bff; 
+    color: white;
+    border: 2px solid #007bff;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: #007bff;
+  }
+  

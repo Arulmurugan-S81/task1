@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar Container */
+  .nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(253, 216, 149, 0.886);
+    padding: 15px 30px;
+    color: white;
+  }
+  
+  /* Brand Name */
+  .nav1 h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  .top1 {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .top2 {
+    display: inline-block;
+  }
+  
+  .top2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .top2 a:hover {
+    color: #f4a261;
+    text-decoration: none
+  }
